@@ -1,0 +1,7 @@
+I noticed that my esp 32 is disconnected from mqtt server when the hotspot is far away from esp 32.
+If I switched off my hotspot then the esp 32 is disconnected from internet and stops all the linked features.
+Then when I turned on the hotspot,it again connected and started all the server client relationship.
+If I am providing my hotspot from long distance to esp it is coonected with wifi but failed to coonect with mqtt server.
+client.state() ==-2 or -3.
+If I take esp closer to hotspot it reconnected and client.state()==0
+It again rebuild the pubsubclient relationship
