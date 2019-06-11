@@ -5,3 +5,4 @@ If I am providing my hotspot from long distance to esp it is coonected with wifi
 client.state() ==-2 or -3.
 If I take esp closer to hotspot it reconnected and client.state()==0
 It again rebuild the pubsubclient relationship
+I attached four pictures of all states in this repository.
